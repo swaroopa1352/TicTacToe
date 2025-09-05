@@ -20,7 +20,7 @@ A simple Tic-Tac-Toe game with a Django backend and a lightweight front-end.
 - Clicks on the board call the Django JSON endpoints via `fetch()`.
 - Server-side game logic in `game/logic.py` updates state, checks win/tie, and returns the board + status.
 
-# Migrate & run
+### Migrate & run
 - python manage.py migrate
 - python manage.py runserver
 
